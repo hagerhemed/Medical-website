@@ -1,0 +1,15 @@
+.title{
+    &__header{
+
+        color:$dark-color;
+        text-transform: capitalize;
+        font-weight: 600;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    p{
+        color:$gray-color;
+
+    }
+
+}

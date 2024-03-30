@@ -1,0 +1,23 @@
+//import
+//abstract
+@import "./abstract/variables";
+@import "./abstract/mixins";
+//vendor
+// @import "./vendors/_bootstrap.scss/";
+
+//base
+@import "./base/reset";
+
+ @import "./components/buttons";
+ @import "./components/title";
+ @import "./components/cards";
+ @import "./components/about.scss";
+ @import "./components/header.scss";
+ @import "./components/doctorsCard.scss";
+ @import "./components/resourcesCard.scss";
+
+ @import "./layout/department";
+ @import "./layout/doctors.scss";
+ @import "./layout/resources.scss";
+ @import "./layout/about.scss";
+ @import "./layout/header.scss";

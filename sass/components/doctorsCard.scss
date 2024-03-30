@@ -1,0 +1,27 @@
+.doctorsCard{
+    text-align: center;
+    border: 1px solid $gray-color;
+    &:hover{
+        background-color: $secondry-color;
+        &__text{
+           h4{
+            color: $light-color;
+           }
+        }
+    }
+    &__img{
+      img{
+        max-width: 100%;
+      }
+    }
+    &__text{
+        padding: 20px 0;
+        span{
+            color: $gray-color;
+        }
+        h4{
+            font-weight: 700;
+            margin-top: 10px;
+        }
+    }
+}

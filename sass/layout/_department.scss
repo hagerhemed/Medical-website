@@ -1,0 +1,24 @@
+.department{
+    background-color: rgb(243, 242, 242);
+    padding: 50px 0;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        // &__card{
+        //     width:30%
+        // }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+     
+        // position: relative;
+        // left: 45%;
+
+
+    }
+}

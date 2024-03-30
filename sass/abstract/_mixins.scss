@@ -1,0 +1,4 @@
+@mixin hoverEffect($x,$y:$light-color){
+    background-color: $x;
+    color: $y;
+}
